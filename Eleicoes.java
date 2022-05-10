@@ -12,7 +12,7 @@ public class Eleicoes {
 		int cont, j = 1, entrada;
 		int pt = 0, pdt = 0, pl = 0, psdb = 0, nulo = 0, branco = 0;
 
-		for (cont = 0; i <= 50; cont++) {// enquanto i menor que 5, ira repetir as perguntas
+		for (cont = 0; i <= 49; cont++) {// enquanto i menor que 5, ira repetir as perguntas
 			System.out.printf("Eleitor %d", j); //chamando a var j, pra mostrar qual o numero do eleitor
 			System.out.print(" Selecione o partido em que deseja votar!\n1 - (13)PT;\n2 - (12)PDT;\n3 - (22)PL;\n4"
 					+ " - (45)PSDB;\n5 - Voto nulo;\n6 - Voto em branco;\nOpção desejada: ");
