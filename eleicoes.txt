@@ -3,7 +3,7 @@ Início
 	VAR INT entrada, j = 1, Cont = 0, pt = 0, pdt = 0, pl = 0, psdb = 0, nulo = 0, branco = 0;
 
 	Enquanto cont <= 49 FAÇA
-
+	  i++
 	  j++
 	  escreva (''Eleitor %d, Digite sua opção de voto'', j)
 	  leia (entrada)
