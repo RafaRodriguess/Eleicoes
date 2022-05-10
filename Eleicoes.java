@@ -9,13 +9,13 @@ public class Eleicoes {
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		// variaveis para os candidatos e para conferencia no switch
-		int i, j = 1, entrada;
+		int cont, j = 1, entrada;
 		int pt = 0, pdt = 0, pl = 0, psdb = 0, nulo = 0, branco = 0;
 
-		for (i = 0; i <= 50; i++) {// enquanto i menor que 5, ira repetir as perguntas
+		for (cont = 0; i <= 50; cont++) {// enquanto i menor que 5, ira repetir as perguntas
 			System.out.printf("Eleitor %d", j); //chamando a var j, pra mostrar qual o numero do eleitor
 			System.out.print(" Selecione o partido em que deseja votar!\n1 - (13)PT;\n2 - (12)PDT;\n3 - (22)PL;\n4"
-					+ " - (45)PSDB;\n5 - Voto nulo;\n6 - Voto em branco;\nOpção desejada: ");
+					+ " - (45)PSDB;\n5 - Voto nulo;\n6 - Voto em branco;\nOpÃ§Ã£o desejada: ");
 			entrada = sc.nextInt();
 			j++;// contator de eleitores
 			switch (entrada) {// 
@@ -38,7 +38,7 @@ public class Eleicoes {
 				branco++;
 				break;
 			default: // se nenhuma das opcoes acima form selecionadas, mostrar 
-				System.out.println("Opção inválida!");
+				System.out.println("OpÃ§Ã£o invÃ¡lida!");
 			}
 			System.out.println();//quebra linha
 
